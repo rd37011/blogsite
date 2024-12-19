@@ -1,0 +1,17 @@
+---
+import Social from './Social.astro'
+const githubURL = "https://www.github.com/rd37011";
+const linkedinURL = "https://www.linkedin.com/in/rdiaz22/";
+---
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+  
+<footer>
+    <Social platform="github" username="rd37011" />
+    <Social platform="linkedin" username="/in/rdiaz22" />
+</footer>
